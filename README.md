@@ -122,4 +122,13 @@ Not part of this monorepo, but relevant:
 
 ---
 
+### 🤖 AI-Assisted Development Disclosure
+
+This repository includes code and documentation **developed with AI assistance** as part of an iterative engineering workflow.
+
+All architecture decisions, scope definitions, security considerations, and validation steps were **human-directed, reviewed, and tested**.
+
+AI was used as a **productivity and ideation aid**, consistent with modern software development practices.
+
+
 > **Portfolio actively maintained (2026).**

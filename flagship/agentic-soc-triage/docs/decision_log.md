@@ -43,12 +43,16 @@ Verified by reviewing the classifier logic, which bases risk scoring on explicit
 ## D003 — Soft Alignment to NIST CSF (Conceptual, Not Compliance)
 
 **Decision:**  
+The project aligns conceptually with NIST CSF functions without claiming formal compliance.
 
 **Rationale:**  
+State SOC teams commonly use NIST CSF as a mental model for operations, but personal projects should avoid compliance claims that imply audit or certification.
 
 **Tradeoffs:**  
+The project does not map to specific control IDs or provide compliance evidence.
 
 **Validation:**  
+Confirmed by reviewing documentation language to ensure it uses “aligns with” rather than “complies with.”
 
 ---
 

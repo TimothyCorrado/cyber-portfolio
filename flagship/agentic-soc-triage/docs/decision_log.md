@@ -76,12 +76,17 @@ Validated by re-running the pipeline on identical sample data and confirming con
 ## D005 — Pluggable Enrichment Backends (Mock → Approved Sources)
 
 **Decision:**  
+Enrichment logic is designed to support pluggable backends, starting with mocked data sources.
 
 **Rationale:**  
+State environments often restrict outbound access and require approved vendors; mocking allows development without violating constraints.
 
 **Tradeoffs:**  
+Mocked enrichment limits realism until approved sources are integrated.
 
 **Validation:**  
+Validated by isolating enrichment logic in a dedicated agent that can be replaced without changing the pipeline.
+
 
 ---
 

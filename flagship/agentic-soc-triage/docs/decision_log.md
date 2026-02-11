@@ -8,13 +8,13 @@ This log explains *why* certain choices were made, not just *what* was built.
 
 ## D001 — Analyst-in-the-loop (No Autonomous Response)
 
-**Decision:**  
+Decision: The system will only recommend actions; it will not automatically contain or remediate activity.
 
-**Rationale:**  
+Rationale: In a state SOC, automated response can disrupt business operations and requires human approval.
 
-**Tradeoffs:**  
+Tradeoffs: Slower response time compared to full automation.
 
-**Validation:**  
+Validation: Verified by ensuring the responder only outputs recommendations and performs no actions.
 
 ---
 

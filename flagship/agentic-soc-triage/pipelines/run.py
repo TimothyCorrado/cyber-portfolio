@@ -1,4 +1,8 @@
-﻿from __future__ import annotations
+﻿# NOTE:
+# Portions of this code were developed with AI assistance.
+# Design, validation, testing, and final decisions are human-directed.
+
+from __future__ import annotations
 
 import json
 from pathlib import Path

@@ -20,3 +20,5 @@ Thumbs.db
 # Generated reports (keep .gitkeep)
 flagship/agentic-soc-triage/reports/*.json
 !flagship/agentic-soc-triage/reports/.gitkeep
+**/__pycache__/
+**/*.pyc

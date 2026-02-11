@@ -59,12 +59,17 @@ Confirmed by reviewing documentation language to ensure it uses “aligns with�
 ## D004 — Deterministic, Reproducible Outputs
 
 **Decision:**  
+The pipeline produces deterministic outputs for the same input data.
 
 **Rationale:**  
+Deterministic behavior supports analyst trust, repeatable investigations, and audit review in state SOC environments.
 
 **Tradeoffs:**  
+Reduced flexibility compared to non-deterministic or adaptive systems.
 
 **Validation:**  
+Validated by re-running the pipeline on identical sample data and confirming consistent results.
+
 
 ---
 

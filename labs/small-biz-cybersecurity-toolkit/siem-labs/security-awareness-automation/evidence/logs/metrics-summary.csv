@@ -1,0 +1,9 @@
+generated_utc,2026-02-10T14:49:07.418531+00:00
+
+metric,value
+total_clicks_last_30d,2
+unique_users_last_30d,1
+repeat_click_users_last_30d,1
+
+campaign,clicks_last_30d
+sim-001,2

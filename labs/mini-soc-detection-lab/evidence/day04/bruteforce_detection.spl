@@ -1,0 +1,6 @@
+index=main sourcetype="WinEventLog:Security" EventCode=4625
+| eval User = coalesce(AccountName, Account_Name, TargetUserName, SubjectUserName)
+| bin _time span=5m
+| stats count by _time, User, host
+| where count >= 5
+| sort -count

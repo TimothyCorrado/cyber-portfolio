@@ -1,0 +1,4 @@
+index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
+| search "*powershell.exe*" OR "*cmd.exe*" OR "*wscript.exe*" OR "*mshta.exe*" OR "*certutil.exe*" OR "*bitsadmin.exe*"
+| table _time host _raw
+| sort -_time

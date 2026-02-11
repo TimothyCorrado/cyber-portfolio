@@ -1,0 +1,6 @@
+index=main sourcetype="WinEventLog:Security" (EventCode=4625 OR EventCode=4624)
+| eval User = coalesce(AccountName, Account_Name, TargetUserName, SubjectUserName)
+| bin _time span=5m
+| stats count(eval(EventCode=4625)) AS failure_count  count(eval(EventCode=4624)) AS success_count BY _time, User, host
+| where success_count >= 1 AND failure_count >= 3
+| sort -_time

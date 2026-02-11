@@ -93,9 +93,14 @@ Validated by isolating enrichment logic in a dedicated agent that can be replace
 ## D006 — Report Format (JSON-first for Ticketing / Review)
 
 **Decision:**  
+The system outputs triage results in a JSON-first report format.
 
 **Rationale:**  
+JSON integrates cleanly with ticketing systems, case management tools, and audit workflows common in state SOCs.
 
 **Tradeoffs:**  
+Human readability is reduced compared to narrative-only reports.
 
 **Validation:**  
+Validated by generating sample reports and confirming fields are suitable for downstream consumption.
+

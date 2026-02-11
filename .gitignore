@@ -1,0 +1,22 @@
+﻿# Python
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Virtual envs
+**/.venv/
+**/venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated reports (keep .gitkeep)
+flagship/agentic-soc-triage/reports/*.json
+!flagship/agentic-soc-triage/reports/.gitkeep

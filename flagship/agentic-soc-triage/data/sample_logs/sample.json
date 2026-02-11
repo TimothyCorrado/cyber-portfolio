@@ -1,0 +1,15 @@
+﻿{
+  "timestamp": "2026-02-10T14:30:00Z",
+  "host": "WIN10-LAB",
+  "user": "timmy",
+  "event_type": "process_create",
+  "process": {
+    "image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "command_line": "powershell.exe -nop -w hidden -enc AAAA",
+    "parent_image": "C:\\Windows\\explorer.exe"
+  },
+  "network": {
+    "dst_ip": "185.199.108.153",
+    "dst_port": 443
+  }
+}
